@@ -1,4 +1,4 @@
-interface Product {
+export interface Product {
   productName: string;
   price: string;
   image: string;
@@ -8,57 +8,82 @@ const products: Product[] = [
   {
     productName: "Wrist Gent",
     price: "$23,700",
-    image: "src/assets/images/watch1.png",
+    image: "/images/watch1.png",
   },
   {
-    productName: "Wrist Gent",
+    productName: "Patek Phil",
     price: "$23,700",
-    image: "src/assets/images/watch1.png",
+    image: "/images/watch2.png",
   },
   {
-    productName: "Wrist Gent",
+    productName: "Omini Vesti",
     price: "$23,700",
-    image: "src/assets/images/watch1.png",
+    image: "/images/watch3.png",
   },
   {
-    productName: "Wrist Gent",
+    productName: "Wrist kent",
     price: "$23,700",
-    image: "src/assets/images/watch1.png",
+    image: "/images/watch4.png",
   },
   {
-    productName: "Wrist Gent",
+    productName: "Wrist Wailt",
     price: "$23,700",
-    image: "src/assets/images/watch1.png",
+    image: "/images/watch5.png",
   },
   {
-    productName: "Wrist Gent",
+    productName: "Patek Datee",
     price: "$23,700",
-    image: "src/assets/images/watch1.png",
+    image: "/images/watch6.png",
   },
   {
-    productName: "Wrist Gent",
+    productName: "Casio krist",
     price: "$23,700",
-    image: "src/assets/images/watch1.png",
+    image: "/images/watch7.png",
   },
   {
-    productName: "Wrist Gent",
+    productName: "Money Wrist",
     price: "$23,700",
-    image: "src/assets/images/watch1.png",
+    image: "/images/watch8.png",
   },
   {
-    productName: "Wrist Gent",
+    productName: "Richard wi",
     price: "$23,700",
-    image: "src/assets/images/watch1.png",
+    image: "/images/watch9.png",
   },
   {
-    productName: "Wrist Gent",
+    productName: "Gent Pani",
     price: "$23,700",
-    image: "src/assets/images/watch1.png",
+    image: "/images/watch10.png",
   },
   {
-    productName: "Wrist Gent",
+    productName: "Casio Da66",
     price: "$23,700",
-    image: "src/assets/images/watch1.png",
+    image: "/images/watch11.png",
+  },
+  {
+    productName: "Wrist Nail",
+    price: "$23,700",
+    image: "/images/watch12.png",
+  },
+  {
+    productName: "Rose Rose",
+    price: "$23,700",
+    image: "/images/watch13.png",
+  },
+  {
+    productName: "mani mani",
+    price: "$23,700",
+    image: "/images/watch14.png",
+  },
+  {
+    productName: "Caso mani",
+    price: "$23,700",
+    image: "/images/watch15.png",
+  },
+  {
+    productName: "Kelv Mass",
+    price: "$23,700",
+    image: "/images/watch16.png",
   },
 ];
 

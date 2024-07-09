@@ -1,14 +1,13 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import watch1 from "@/assets/images/watch1.png";
 
 export default function page() {
   return (
     <div className="flex justify-center gap-10 flex-wrap">
       {/* table 1 */}
-      <div>
-        <div className="flex justify-between pb-4 border-b max-w-[672px] border-black">
+      <div className="mx-6 my-4 w-full sm:max-w-[672px]">
+        <div className="flex justify-between pb-4 border-b  border-black">
           <p>PRODUCT</p>
           <div className="flex gap-2">
             <p className="hidden sm:block">PRICE</p>
@@ -19,7 +18,12 @@ export default function page() {
 
         <div className="flex justify-between pb-4  mt-4">
           <div className="flex">
-            <Image src={watch1} className=" w-28 sm:w-40" width={200} alt="watch1" />
+            <Image
+              src="/images/watch1.png"
+              className=" w-28 sm:w-40"
+              width={200}
+              alt="watch1"
+            />
             <p className=" w-40 hidden sm:block">
               Wrist Gent men limited time piece for classy men x223
             </p>
@@ -50,7 +54,7 @@ export default function page() {
       </div>
 
       {/* table 2 */}
-      <div className="flex flex-col basis-[531px] gap-2 border-black  sm:border-l sm:pl-10 text-sm ">
+      <div className="flex flex-col basis-[531px] gap-2 border-black  sm:border-l sm:pl-10 text-sm mx-4 mb-10">
         <div className="flex justify-between pb-4 border-b border-black">
           <p>CART TOTAL</p>
         </div>

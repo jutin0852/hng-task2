@@ -2,7 +2,6 @@
 import Image from "next/image";
 import React, { useState } from "react";
 import cancel from "@/assets/icons/cancel.png";
-import WristGent from "@/assets/images/watch1.png";
 import deleteIcon from "@/assets/icons/delete.png";
 import Link from "next/link";
 
@@ -30,7 +29,12 @@ export default function Cart({
               />
             </div>
             <div className=" border-b border-black rounded flex p-2">
-              <Image src={WristGent} className="w-40 sm:w-64" width={250} alt="wristGent" />
+              <Image
+                src="/images/watch1.png"
+                className="w-40 sm:w-64"
+                width={250}
+                alt="wristGent"
+              />
               <div>
                 <p>Wrist Gent men limited time piece for classy men x223</p>
                 <p>1X $23,700</p>
