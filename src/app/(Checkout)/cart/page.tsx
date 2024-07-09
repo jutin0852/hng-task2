@@ -22,6 +22,7 @@ export default function page() {
               src="/images/watch1.png"
               className=" w-28 sm:w-40"
               width={200}
+              height={200}
               alt="watch1"
             />
             <p className=" w-40 hidden sm:block">
