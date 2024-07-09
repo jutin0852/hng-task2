@@ -4,7 +4,8 @@ import React from "react";
 
 export default function page() {
   return (
-    <div className="flex justify-center gap-10 flex-wrap">
+    <div className="flex justify-center gap-6 flex-wrap mt-6">
+      <p className="sm:hidden font-semibold text-[#A22D2A]">SHOPPING CART</p>
       {/* table 1 */}
       <div className="mx-6 my-4 w-full sm:max-w-[672px]">
         <div className="flex justify-between pb-4 border-b  border-black">

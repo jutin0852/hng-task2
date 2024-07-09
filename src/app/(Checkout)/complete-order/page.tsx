@@ -3,6 +3,8 @@ import React from "react";
 export default function page() {
   return (
     <div>
+      <p className="sm:hidden font-semibold text-center text-[#A22D2A] mt-4">ORDER COMPLETE</p>
+
       <div className="flex flex-wrap gap-8 justify-between mb-10 px-8 py-4 ">
         <div className=" flex flex-col gap-3 ">
           <p className="font-bold ">Our bank details</p>

@@ -4,6 +4,8 @@ import Link from "next/link";
 export default function page() {
   return (
     <div className="flex justify-center gap-4 flex-wrap my-4 mb-20">
+      <p className="sm:hidden font-semibold text-[#A22D2A]">CHECKOUT DETAILS</p>
+
       <div className="max-w-[564px] gap-4 flex flex-col my-4 p-4  sm:p-2">
         <h6 className="text-[#A22D2A] font-bold">BILLING DETAILS</h6>
         <div className=" flex-col flex gap-4">
