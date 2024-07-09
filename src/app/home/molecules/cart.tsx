@@ -32,7 +32,8 @@ export default function Cart({
               <Image
                 src="/images/watch1.png"
                 className="w-40 sm:w-64"
-                width={250}
+                width={200}
+                height={200}
                 alt="wristGent"
               />
               <div>
